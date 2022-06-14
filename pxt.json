@@ -1,0 +1,45 @@
+{
+    "name": "New Heights 3",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "animation": "*",
+        "controller": "*",
+        "corgio": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "marsplanet.ts",
+        "starfield.ts",
+        "starfieldbackground.ts",
+        "moonback.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.8.26",
+        "tag": "v1.8.26",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/6434cb63948fe7c1d1a7498115a4bc495495512c",
+        "target": "1.8.26",
+        "pxt": "7.4.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
